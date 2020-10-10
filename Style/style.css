@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Libre+Baskerville&display=swap');
+
+@media only screen and (min-width: 320px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #wrapper {
+    border: 2px solid black;
+    width: 320px;
+    margin: 0 auto 0 auto;
+    background-color: rgb(212,168,106);
+  }
+
+  body {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 7.5px;
+    background-image: url('../Images/EarthBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 17.5px;
+    font-weight: bolder;
+  }
+
+  h2 {
+    font-family: 'Dosis', sans-serif;
+  }
+
+  section {
+    float: left;
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-top: 5px;
+    width: 280px;
+  }
+
+  section article {
+    border: 2px solid black;
+    border-radius: 0px 20px 20px 20px;
+    margin-bottom: 7.5px;
+    padding: 8px;
+    background-image: url('../Images/PaperBackground.jpg');
+  }
+
+  header {
+    background-color: rgb(170,92,56);
+    width: 286px;
+    height: 35px;
+    overflow: hidden;
+    text-align: center;
+    float: left;
+  }
+
+  #HeaderText {
+    position: relative;
+    text-align: center;
+    bottom: 17.5px;
+  }
+
+  #HeaderSpan {
+    display: inline-block;
+  }
+
+  .DuurzaamheidLogo {
+    width: 38px;
+    height: 34px;
+  }
+
+  nav {
+    border: 1px solid black;
+    width: 30px;
+    height: 750px;
+    float: left;
+    background-color: rgb(72,144,116);
+  }
+
+  footer {
+    text-align: center;
+    background-color: rgb(42,78,110);
+    float: center;
+    clear: left;
+    font-size: 10px;
+  }
+
+  #menu {
+    list-style: none;
+  }
+
+  ul#menu a:hover {
+    background-color: blue;
+    color: white;
+  }
+
+  .menuli {
+    border: 1px solid black;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+  }
+
+  #menulitop {
+    border: 1px solid black;
+    border-left: 0px;
+    border-right: 0px;
+  }
+
+  ul#menu a {
+    margin-left: 2.5px;
+    display: block;
+    color: rgb(0,0,0);
+    text-decoration: none;
+    font-size: 5px;
+  }
+
+  #Logo {
+    margin-left: 1.5px;
+    margin-right: 1.5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: 27px;
+    height: 27px;
+  }
+
+  #tabletest {
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 7.5px;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 4px;
+  }
+
+  #tabletest tr,th,td {
+    text-align: center;
+    padding: 0px;
+    border: 1px solid #dddddd;
+  }
+
+  #tabletest th {
+    font-size: 150%;
+    padding: 15px;
+  }
+
+  #tabletest td {
+    font-size: 100%;
+    padding: 10px;
+  }
+
+  #tabletest tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  #list {
+    margin-top: 6px;
+    margin-left: 25px;
+  }
+
+  #listinlist {
+    margin-left: 15px;
+  }
+
+  img {
+    height: auto;
+    max-width: 100%;
+  }
+
+  #externewebsite:visited {
+    color: red;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #wrapper {
+    border: 2px solid black;
+    width: 720px;
+    margin: 0 auto 0 auto;
+    background-color: rgb(212,168,106);
+  }
+
+  body {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 12.5px;
+    background-image: url('../Images/EarthBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 45px;
+    font-weight: bolder;
+  }
+
+  h2 {
+    font-family: 'Dosis', sans-serif;
+  }
+
+  section {
+    float: left;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 15px;
+    width: 630px;
+  }
+
+  section article {
+    border: 4px solid black;
+    border-radius: 0px 20px 20px 20px;
+    margin-bottom: 12.5px;
+    padding: 8px;
+    background-image: url('../Images/PaperBackground.jpg');
+  }
+
+  header {
+    background-color: rgb(170,92,56);
+    width: 646px;
+    height: 63px;
+    overflow: hidden;
+    text-align: center;
+    float: left;
+  }
+
+  #HeaderText {
+    position: relative;
+    text-align: center;
+    bottom: 17.5px;
+  }
+
+  #HeaderSpan {
+    display: inline-block;
+  }
+
+  .DuurzaamheidLogo {
+    width: 68.4px;
+    height: 61.2px;
+  }
+
+  nav {
+    border: 2px solid black;
+    width: 70px;
+    height: 748px;
+    float: left;
+    background-color: rgb(72,144,116);
+  }
+
+  footer {
+    text-align: center;
+    background-color: rgb(42,78,110);
+    float: center;
+    clear: left;
+    font-size: 12.5px;
+  }
+
+  #menu {
+    list-style: none;
+  }
+
+  ul#menu a:hover {
+    background-color: blue;
+    color: white;
+  }
+
+  .menuli {
+    border: 2px solid black;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+  }
+
+  #menulitop {
+    border: 2px solid black;
+    border-left: 0px;
+    border-right: 0px;
+  }
+
+  ul#menu a {
+    margin-left: 2.5px;
+    display: block;
+    color: rgb(0,0,0);
+    text-decoration: none;
+    font-size: 12.5px;
+  }
+
+  #Logo {
+    margin-left: 3.5px;
+    margin-right: 3.5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: 63px;
+    height: 63px;
+  }
+
+  #tabletest {
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 7.5px;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 10px;
+  }
+
+  #tabletest tr,th,td {
+    text-align: center;
+    padding: 0px;
+    border: 1px solid #dddddd;
+  }
+
+  #tabletest th {
+    font-size: 150%;
+    padding: 15px;
+  }
+
+  #tabletest td {
+    font-size: 100%;
+    padding: 10px;
+  }
+
+  #tabletest tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  #list {
+    margin-top: 6px;
+    margin-left: 25px;
+  }
+
+  #listinlist {
+    margin-left: 15px;
+  }
+
+  img {
+    height: auto;
+    max-width: 100%;
+  }
+
+  #externewebsite:visited {
+    color: red;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #wrapper {
+    border: 2px solid black;
+    width: 1024px;
+    margin: 0 auto 0 auto;
+    background-color: rgb(212,168,106);
+  }
+
+  body {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 15px;
+    background-image: url('../Images/EarthBackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+  }
+
+  h2 {
+    font-family: 'Dosis', sans-serif;
+  }
+
+  section {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    width: 900px;
+  }
+
+  section article {
+    border: 4px solid black;
+    border-radius: 0px 20px 20px 20px;
+    margin-bottom: 12.5px;
+    padding: 8px;
+    background-image: url('../Images/PaperBackground.jpg');
+  }
+
+  header {
+    background-color: rgb(170,92,56);
+    width: 920px;
+    height: 68px;
+    overflow: hidden;
+    text-align: center;
+    float: left;
+  }
+
+  #HeaderText {
+    position: relative;
+    text-align: center;
+    bottom: 17.5px;
+  }
+
+  #HeaderSpan {
+    display: inline-block;
+  }
+
+  .DuurzaamheidLogo {
+    width: 76px;
+    height: 68px;
+  }
+
+  nav {
+    border: 2px solid black;
+    width: 100px;
+    height: 748px;
+    float: left;
+    background-color: rgb(72,144,116);
+  }
+
+  footer {
+    text-align: center;
+    background-color: rgb(42,78,110);
+    float: center;
+    clear: left;
+    font-size: 15px;
+  }
+
+  #menu {
+    list-style: none;
+  }
+
+  ul#menu a:hover {
+    background-color: blue;
+    color: white;
+  }
+
+  .menuli {
+    border: 2px solid black;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+  }
+
+  #menulitop {
+    border: 2px solid black;
+    border-left: 0px;
+    border-right: 0px;
+  }
+
+  ul#menu a {
+    margin-left: 2.5px;
+    display: block;
+    color: rgb(0,0,0);
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+  #Logo {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: 90px;
+    height: 90px;
+  }
+
+  #tabletest {
+    background-color: white;
+    margin-top: 15px;
+    margin-bottom: 7.5px;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 15px;
+  }
+
+  #tabletest tr,th,td {
+    text-align: center;
+    padding: 0px;
+    border: 1px solid #dddddd;
+  }
+
+  #tabletest th {
+    font-size: 150%;
+    padding: 15px;
+  }
+
+  #tabletest td {
+    font-size: 100%;
+    padding: 10px;
+  }
+
+  #tabletest tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  #list {
+    margin-top: 6px;
+    margin-left: 25px;
+  }
+
+  #listinlist {
+    margin-left: 15px;
+  }
+
+  img {
+    height: auto;
+    max-width: 100%;
+  }
+
+  #externewebsite:visited {
+    color: red;
+  }
+}
